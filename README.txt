@@ -12,7 +12,7 @@ What this package includes
 
 Test status
 - The package was rebuilt locally in WSL Ubuntu.
-- It was installed and tested over SSH on Ubuntu 20.04.6 LTS server: radio@192.168.93.132.
+- It was installed and tested over SSH on Ubuntu 20.04.6 LTS server
 - Package install worked.
 - libretime-install worked.
 - Database migration worked.
@@ -27,6 +27,7 @@ Installation
 2. Install the package with apt:
 
    sudo apt install ./libretime_4.5.0+icecast2.5.0+liquidsoap2.0.7-0local1_amd64.deb
+(find the download link below)
 
 3. Run the installer.
 
@@ -75,3 +76,4 @@ Notes
 - The package was tested on Ubuntu 20.04, not on newer Ubuntu releases.
 - If you want LibreTime on port 80 instead of 8080, adjust the nginx site after install.
 - The .buildinfo and .changes files are included for release/build metadata. End users normally only need the .deb.
+While I'm working on the Github fork I have the .deb file publicly available on mediafire here: https://www.mediafire.com/folder/xaimkir95lcd3/Libretime-4.5.0-Icecast-2.5.0-Liquidsoap-2.0.7
