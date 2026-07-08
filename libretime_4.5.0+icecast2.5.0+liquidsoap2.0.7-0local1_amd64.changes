@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Tue, 07 Jul 2026 01:15:00 -0400
+Source: libretime
+Binary: libretime
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4.5.0+icecast2.5.0+liquidsoap2.0.7-0local1
+Distribution: focal
+Urgency: medium
+Maintainer: Kyle Robbertze <paddatrapper@debian.org>
+Changed-By: Kyle Robbertze <paddatrapper@debian.org>
+Description:
+ libretime  - online platform for hosting your own radio station
+Changes:
+ libretime (4.5.0+icecast2.5.0+liquidsoap2.0.7-0local1) focal; urgency=medium
+ .
+   * Rebase packaging workspace onto upstream LibreTime 4.5.0.
+   * Replace legacy Liquidsoap 1.x plugin dependencies with Liquidsoap >= 2.0.7.
+   * Require Icecast 2.5.0 or newer.
+   * Install the 4.5.0 source tree under /usr/lib/libretime.
+   * Expose the installer as /usr/bin/libretime-install.
+   * Bundle the working custom Liquidsoap and Icecast artifacts from konpa.net.
+Checksums-Sha1:
+ a1c8ca60661143e16db74de1138e93663ac1a8ac 653264 libretime-dbgsym_4.5.0+icecast2.5.0+liquidsoap2.0.7-0local1_amd64.ddeb
+ a0c3d56a2cf6f5d0040ef4b7063e865cafa1e33b 7280 libretime_4.5.0+icecast2.5.0+liquidsoap2.0.7-0local1_amd64.buildinfo
+ ebfcc9cef271cc5dde14c8a81c6fe22937726aaf 78908504 libretime_4.5.0+icecast2.5.0+liquidsoap2.0.7-0local1_amd64.deb
+Checksums-Sha256:
+ 4f26e45184d5a1d7a3b3bcf612e977af221f2939f98b5609e4228b9d11b9d147 653264 libretime-dbgsym_4.5.0+icecast2.5.0+liquidsoap2.0.7-0local1_amd64.ddeb
+ 3c0fb3e6878db38985308a0e0a56da7a297d78abaf4522cfd1a9aee8da6d69a8 7280 libretime_4.5.0+icecast2.5.0+liquidsoap2.0.7-0local1_amd64.buildinfo
+ 1b592c6b013390b3ccc614f8450b7d2b7494197385513b1586e7cdd09141b918 78908504 libretime_4.5.0+icecast2.5.0+liquidsoap2.0.7-0local1_amd64.deb
+Files:
+ 19be9c6283a4084e4c435368883c16d3 653264 debug optional libretime-dbgsym_4.5.0+icecast2.5.0+liquidsoap2.0.7-0local1_amd64.ddeb
+ cb35dc2684e56507719fb53cd9a7dcfa 7280 web optional libretime_4.5.0+icecast2.5.0+liquidsoap2.0.7-0local1_amd64.buildinfo
+ e2cd8823a4b492d5554743488cbcb05c 78908504 web optional libretime_4.5.0+icecast2.5.0+liquidsoap2.0.7-0local1_amd64.deb
