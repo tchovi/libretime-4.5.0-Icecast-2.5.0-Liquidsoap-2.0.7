@@ -71,6 +71,17 @@ Quick verification commands
   Expected output:
   Icecast 2.5.0
 
+One the installation is completed you may do the following to verify the version that was installed
+      $ liquidsoap --version
+
+Liquidsoap 2.0.7+git@0ed7ed45
+Copyright (c) 2003-2022 Savonet team
+Liquidsoap is open-source software, released under
+See <http://liquidsoap.info> for more information.
+
+
+      $ icecast -v
+-----------------
 Notes
 - The package bundles custom Icecast and Liquidsoap binaries.
 - The package was tested on Ubuntu 20.04, not on newer Ubuntu releases.
