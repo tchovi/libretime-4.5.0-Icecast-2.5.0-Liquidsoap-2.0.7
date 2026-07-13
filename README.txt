@@ -24,8 +24,7 @@ Target system
 
 Installation
 1. Copy the .deb file to the Ubuntu 20.04 server.
-2. Install the package with apt:
-wget https://download1655.mediafire.com/5ysib5b0xq6goXRw8PkN2pRDRUV6V2pTs_gEHbUDcWgezbCIHsMRNJ5cwfHv8TKjhvZxE1hFpGjCXrXhHtV_pGGrM4c3bFLQ7bVEy4GMVvwV0zEsE00Yl4skY6M25jK06yF7I47sHJG64URCMgQ9LGPHdcLRfY_WV0ELTxOWzaFI/xcq0z02sexib524/libretime_4.5.0%2Bicecast2.5.0%2Bliquidsoap2.0.7-0local1_amd64.deb
+2. Install the package with : wget https://download1655.mediafire.com/5ysib5b0xq6goXRw8PkN2pRDRUV6V2pTs_gEHbUDcWgezbCIHsMRNJ5cwfHv8TKjhvZxE1hFpGjCXrXhHtV_pGGrM4c3bFLQ7bVEy4GMVvwV0zEsE00Yl4skY6M25jK06yF7I47sHJG64URCMgQ9LGPHdcLRfY_WV0ELTxOWzaFI/xcq0z02sexib524/libretime_4.5.0%2Bicecast2.5.0%2Bliquidsoap2.0.7-0local1_amd64.deb
 
    sudo apt install ./libretime_4.5.0+icecast2.5.0+liquidsoap2.0.7-0local1_amd64.deb
 (find the download link below)
